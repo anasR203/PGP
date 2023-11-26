@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+}
+
+header h1 a{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  position: relative;
+  left: 20px;
+  border: 5px solid transparent;
+  transition: .8s;
+  border-radius: 22px;
+}
+
+header h1 a span{
+    color: gold;
+}
+
+header h1 a:hover,
+header h1 a:focus{
+    border-radius: 22px;
+    padding: 2px 15px;
+    color: black;
+    background-color: aliceblue;
+    transition: .4s;    
+}
+
+main{
+    
+    margin: 5% auto;
+}
+
+main p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 35px;
+    width: 45%;
+}
+
+main video{
+    position: relative;
+    left: 55%;
+    bottom: 200px;
+}
+
+.connexion{
+    text-align: center;
+   position: relative;
+   bottom: 155px;
+   font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+  .cetu{
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+    border: 5px solid #1b1b1b;
+    background-color: #1b1b1b;
+    border-radius: 32px;
+    padding: 20px 15px;
+    transition: .4s;
+}
+
+.cetu:hover{
+   color: black;
+   font-size: large;
+    text-decoration: none;
+    border: 5px solid gold;
+    background-color: aliceblue;
+    border-radius: 32px;
+    padding: 20px 15px;
+    transition: .4s;
+}
+
+.cens{
+    color: aliceblue;
+    font-size: large;
+    text-decoration: none;
+    border: 5px solid #1b1b1b;
+    background-color: #1b1b1b;
+    border-radius: 32px;
+    padding: 20px 15px;
+    transition: .4s;
+}
+
+.cens:hover{
+   color: black;
+   font-size: large;
+    text-decoration: none;
+    border: 5px solid gold;
+    background-color: aliceblue;
+    border-radius: 32px;
+    padding: 20px 15px;
+    transition: .4s;
+}
+
+footer{
+    background-color: black;
+    padding: 11px;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+footer p span{
+    color: gold;
+}
+
+.contact a{
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    padding: 2px 15px;
+    transition: .4s;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.contact a:hover{
+    color: #1b1b1b;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 22px;
+    padding: 2px 15px;
+    transition: .4s;
+}
+
+form{
+    position: relative;
+    margin: 15% auto;
+    padding: 15px;    
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+    background-color: #1b1b1b;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow:0 0 10px black;
+    width: 50%;
+    
+}
+
+form h4{
+        text-align: center;
+    font-size: 32px;
+    
+}
+
+hr{
+    width: 95%;
+    color: aliceblue;
+}
+form label{
+    font-size: 18px;
+}
+form input[type='text'],form input[type='password']{
+  color: dimgray;
+  border-radius: 6px;
+  border: transparent;
+  position: relative;
+  left: 5%;
+  margin: 20px 0;
+  padding: 7px 5px;
+}
+
+form input[type='submit']{
+ font-family: 'Saira Extra Condensed', sans-serif !important;
+ font-size: 24px;
+  position: relative;
+  left: 40%;
+  border: transparent;
+  border-radius: 10px;
+  padding: 2px 15px;
+  color: gold;
+  background-color: #1b1b1b;
+  transition: .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+form input[type='submit']:hover{
+transform: scale(1.1);
+background-color: white;
+}
