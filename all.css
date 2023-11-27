@@ -64,7 +64,7 @@ main{
 
 .main-index{
     position: relative;
-   
+    display: flex;
     max-width: 100%;
     width: 1200px;
     margin: 10px auto;
@@ -84,7 +84,7 @@ section  p{
 
 section  img{
     position: absolute;
-    width: 35em;
+    width: 45%;
     left: 52%;
 
 }
@@ -223,7 +223,7 @@ form label{
     color: gold;
 }
 form input[type='text'],form input[type='password']{
-    color: #1b1b1b;
+   
    padding: 0.8em 1em;
    margin: 0.4em;
    width: 65%;
@@ -232,17 +232,22 @@ form input[type='text'],form input[type='password']{
    border-radius: 15px;
    background-color: rgb(255,255,255,0.5 );
    box-shadow: inset -2px -2px rgb(0,0,0,0.5 );
-   color: aliceblue;
+   color: #1b1b1b;
    font-size: 1rem;
+}
+
+form input[type='text'],form input[type='password']::placeholder{
+    color: #1b1b1b;
 }
 
 form input[type='submit']{
   font-family: 'Saira Extra Condensed', sans-serif !important;
+  color: #1b1b1b;
   text-transform: uppercase;
   padding: 1.2em 0.8em;
   margin: 1.5em; 
   border-radius: 15px;
-  color: #1b1b1b;
+
   background-color: rgb(255,255,255,0.5 );
   border: none;
   outline: none;
@@ -254,4 +259,11 @@ form input[type='submit']:hover{
    color: gold;
    transform: scale(1.1);
    transition: .2s;
+}
+
+@media screen and (max-width: 810px){
+  .main-index{
+    font-size: 2px;
+    flex-direction: column;
+  }
 }
